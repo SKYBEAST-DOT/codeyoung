@@ -3,7 +3,7 @@ import { Download, ExternalLink, Mail } from 'lucide-react'
 
 const heroButtons = [
   { label: 'Download Resume', href: '/resume-sagar-kumar.pdf', icon: Download, primary: true },
-  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/', icon: ExternalLink },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/sagar-kumar/', icon: ExternalLink },
   { label: 'GitHub', href: 'https://github.com/SKYBEAST-DOT', icon: ExternalLink },
   { label: 'Contact Me', href: '#contact', icon: Mail },
 ]

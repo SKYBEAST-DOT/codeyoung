@@ -8,8 +8,8 @@ const contacts = [
   { label: 'Phone', value: '+91 98765 43210', href: 'tel:+919876543210', icon: Phone },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/sagarkumar',
-    href: 'https://www.linkedin.com/in/',
+    value: 'linkedin.com/in/sagar-kumar',
+    href: 'https://www.linkedin.com/in/sagar-kumar/',
     icon: ExternalLink,
   },
   {
