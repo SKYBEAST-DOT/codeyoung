@@ -1,0 +1,8 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="20" fill="#E0F2FE"/>
+  <rect x="80" y="90" width="640" height="270" rx="16" fill="#FFFFFF"/>
+  <path d="M180 220L245 175V205L355 205V235H245V265L180 220Z" fill="#0EA5E9"/>
+  <rect x="400" y="185" width="200" height="16" rx="8" fill="#BAE6FD"/>
+  <rect x="400" y="218" width="160" height="16" rx="8" fill="#BAE6FD"/>
+  <text x="400" y="165" fill="#0F172A" font-family="Arial, sans-serif" font-size="24" font-weight="700">Slash AI Terminal</text>
+</svg>
