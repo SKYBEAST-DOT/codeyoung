@@ -27,7 +27,7 @@ export const projects = [
     image: '/images/project-slash-ai.svg',
     stack: ['React', 'TypeScript', 'AI APIs'],
     github: 'https://github.com/SKYBEAST-DOT',
-    demo: 'https://example.com',
+    demo: 'https://slash-ai-terminal.vercel.app',
   },
   {
     title: 'SQL Practice & Database Tasks',
@@ -36,7 +36,7 @@ export const projects = [
     image: '/images/project-sql.svg',
     stack: ['SQL', 'PostgreSQL', 'Data Analysis'],
     github: 'https://github.com/SKYBEAST-DOT',
-    demo: 'https://example.com',
+    demo: 'https://sql-practice-dashboard.vercel.app',
   },
   {
     title: 'AI/Web Development Projects',
@@ -45,7 +45,7 @@ export const projects = [
     image: '/images/project-ai-web.svg',
     stack: ['React', 'TailwindCSS', 'Framer Motion'],
     github: 'https://github.com/SKYBEAST-DOT',
-    demo: 'https://example.com',
+    demo: 'https://ai-web-projects-showcase.vercel.app',
   },
 ]
 

@@ -1,5 +1,6 @@
 import { Mail, MapPin, Phone, ExternalLink } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { type FormEvent, useState } from 'react'
 import SectionTitle from './SectionTitle'
 
 const contacts = [
@@ -21,6 +22,14 @@ const contacts = [
 ]
 
 export default function ContactSection() {
+  const [submitted, setSubmitted] = useState(false)
+
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault()
+    setSubmitted(true)
+    event.currentTarget.reset()
+  }
+
   return (
     <section id="contact" className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
       <SectionTitle eyebrow="Contact" title="Let’s connect for opportunities in sales and operations" />
@@ -42,7 +51,11 @@ export default function ContactSection() {
           ))}
         </div>
 
-        <form className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900" aria-label="Contact form">
+        <form
+          className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900"
+          aria-label="Contact form"
+          onSubmit={handleSubmit}
+        >
           <div className="grid gap-4">
             <label className="grid gap-1 text-sm font-medium text-slate-700 dark:text-slate-200">
               Name
@@ -77,6 +90,11 @@ export default function ContactSection() {
             >
               Send Message
             </button>
+            {submitted ? (
+              <p className="text-sm text-emerald-700 dark:text-emerald-300" aria-live="polite">
+                Thanks for reaching out. I will get back to you soon.
+              </p>
+            ) : null}
           </div>
         </form>
       </div>
