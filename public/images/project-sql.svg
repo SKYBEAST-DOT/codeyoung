@@ -1,0 +1,7 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="20" fill="#EFF6FF"/>
+  <ellipse cx="400" cy="145" rx="180" ry="55" fill="#93C5FD"/>
+  <rect x="220" y="145" width="360" height="160" fill="#BFDBFE"/>
+  <ellipse cx="400" cy="305" rx="180" ry="55" fill="#60A5FA"/>
+  <text x="272" y="382" fill="#1E3A8A" font-family="Arial, sans-serif" font-size="30" font-weight="700">SQL Practice Tasks</text>
+</svg>
